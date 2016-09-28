@@ -3,29 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pp_coverButton</string>
+	<string>pp_praviteMethod_dataHandler</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (UIButton *)coverButton
-{
-    if (_coverButton == nil) {
-        _coverButton = [[UIButton alloc] init];
-        [_coverButton addTarget:self action:@selector(yh_changeStatusWhenTouched) forControlEvents:UIControlEventTouchDown];
-        [_coverButton addTarget:self action:@selector(yh_changeStatusWhenExit) forControlEvents:UIControlEventTouchUpInside | UIControlEventTouchUpOutside];
-    }
-    return _coverButton;
-}</string>
+	<string>#pragma mark - praviteMethod_dataHandler</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>84DC65BE-640D-4075-AACD-011EA85A2828</string>
+	<string>BAD38382-9A19-4459-B454-64BB0B3656E2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>coverButton</string>
+	<string>praviteMethod_dataHandler</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>coverButton</string>
+	<string>praviteMethod_dataHandler</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>praviteMethod</string>
+	<string>pp_praviteMethod</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - praviteMethod</string>
+	<string>#pragma mark - praviteMethod_businessLogic</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>EF2E9FA1-E860-4D31-809A-59EB726455EC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>mark praviteMethod</string>
+	<string>praviteMethod_businessLogic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mark praviteMethod</string>
+	<string>praviteMethod_businessLogic</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

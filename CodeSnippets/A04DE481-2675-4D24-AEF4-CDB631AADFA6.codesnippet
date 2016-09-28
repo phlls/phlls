@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>eventResponse</string>
+	<string>pp_constNumber</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - eventResponse</string>
+	<string>static CGFloat const &lt;#name#&gt; = &lt;#num#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DBF61103-DEAC-4E48-A481-3DE040749528</string>
+	<string>A04DE481-2675-4D24-AEF4-CDB631AADFA6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Mark eventResponse</string>
+	<string>const num</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Mark eventResponse</string>
+	<string>const num</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>eventResponse</string>
+	<string>pp_checkMethod</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - eventResponse</string>
+	<string>if ([self.delegate respondsToSelector:&lt;#(SEL)#&gt;]) {
+    [self.delegate &lt;#method#&gt;];
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DBF61103-DEAC-4E48-A481-3DE040749528</string>
+	<string>14C33A41-B8D8-4424-AF37-380A2842D22B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Mark eventResponse</string>
+	<string>自查是否实现代理</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Mark eventResponse</string>
+	<string>自查是否实现代理</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

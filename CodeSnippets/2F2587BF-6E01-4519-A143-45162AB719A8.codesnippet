@@ -3,21 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>eventResponse</string>
+	<string>pp_yibu</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - eventResponse</string>
+	<string>    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        
+        &lt;#statement#&gt;
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            &lt;#statement#&gt;
+        });
+    });</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DBF61103-DEAC-4E48-A481-3DE040749528</string>
+	<string>2F2587BF-6E01-4519-A143-45162AB719A8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Mark eventResponse</string>
+	<string>dispatch_async</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Mark eventResponse</string>
+	<string>dispatch_async</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

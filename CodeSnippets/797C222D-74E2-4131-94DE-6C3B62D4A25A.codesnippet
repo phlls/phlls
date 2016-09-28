@@ -3,29 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pp_coverButton</string>
+	<string>pp_NetworkCheck</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (UIButton *)coverButton
-{
-    if (_coverButton == nil) {
-        _coverButton = [[UIButton alloc] init];
-        [_coverButton addTarget:self action:@selector(yh_changeStatusWhenTouched) forControlEvents:UIControlEventTouchDown];
-        [_coverButton addTarget:self action:@selector(yh_changeStatusWhenExit) forControlEvents:UIControlEventTouchUpInside | UIControlEventTouchUpOutside];
+	<string>
+    if ( ![YHNetworkCheckUtil isNetWorkAvailable]) {
+        
+        [MBProgressHUD showTextHUD:@"网络异常" forView:self.navigationController.view];
     }
-    return _coverButton;
-}</string>
+   
+    [MBProgressHUD showLoadingHUDForView:self.navigationController.view];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>84DC65BE-640D-4075-AACD-011EA85A2828</string>
+	<string>797C222D-74E2-4131-94DE-6C3B62D4A25A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>coverButton</string>
+	<string>NetworkCheck</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>coverButton</string>
+	<string>NetworkCheck</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
