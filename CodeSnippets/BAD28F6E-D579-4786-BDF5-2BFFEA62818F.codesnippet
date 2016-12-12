@@ -3,27 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pp_yibu</string>
+	<string>pp_import</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>Preprocessor</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>dispatch_queue_t queue = dispatch_queue_create("com.yunyui.notification", 0);
-dispatch_async(queue, ^{
-    &lt;#statement#&gt;
-    dispatch_async(dispatch_get_main_queue(), ^{
-        &lt;#statement#&gt;
-    });
-});</string>
+	<string>#import "UIColor+HexColor.h"
+#import "Constants.h"
+#import &lt;Masonry.h&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2F2587BF-6E01-4519-A143-45162AB719A8</string>
+	<string>BAD28F6E-D579-4786-BDF5-2BFFEA62818F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>dispatch_async</string>
+	<string>常用import</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>dispatch_async</string>
+	<string>常用import</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

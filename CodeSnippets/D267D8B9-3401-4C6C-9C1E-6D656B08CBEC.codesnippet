@@ -32,7 +32,7 @@
     return self;
 }
 
-#pragma mark - praviteMethod
+#pragma mark - praviteMethod_businessLogic
 
 - (void)yh_addSubViews
 {
